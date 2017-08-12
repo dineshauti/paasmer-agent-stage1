@@ -1,3 +1,3 @@
 FROM alpine:3.6
-
-RUN echo "Hello Dinesh!!"
+RUN apk add --no-cache git
+RUN date
